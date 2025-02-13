@@ -5,19 +5,34 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Portfolio de Loup Le Bivic</title>
   <link rel="stylesheet" href="./css/style.css">
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
 </head>
 <body>
 <header>
   <div class="container">
     <h1>Loup Le Bivic</h1>
-    <p>Étudiant en informatique, entrepreneur et passionné de sport, de livres, de films et de voyages.</p>
+    <p>Étudiant en informatique | Entrepreneur | Passionné de technologies</p>
+    <a href="https://www.linkedin.com/in/loup-le-bivic" target="_blank" class="btn-linkedin">LinkedIn</a>
   </div>
 </header>
 
 <section id="about">
   <div class="container">
     <h2>À propos de moi</h2>
-    <p>Je m'appelle Loup Le Bivic, je suis étudiant en informatique et passionné par le développement, l'entreprenariat et les défis techniques. J'aime aussi le sport, la lecture, les films et les voyages.</p>
+    <p>Je suis étudiant en BUT Informatique à l'IUT d'Orsay. Passionné par le développement, l'entrepreneuriat et les défis techniques, j'aime également le sport, la lecture, le cinéma et les voyages.</p>
+  </div>
+</section>
+
+<section id="skills">
+  <div class="container">
+    <h2>Compétences Techniques</h2>
+    <ul>
+      <li><i class="fas fa-code"></i> Langages : C, C++, Java, Python, HTML, CSS, PHP, JavaScript</li>
+      <li><i class="fas fa-database"></i> Bases de données : SQL, PL/SQL, Oracle, MySQL</li>
+      <li><i class="fas fa-network-wired"></i> Réseaux : TCP/IP, Linux, serveurs web</li>
+      <li><i class="fas fa-cloud"></i> Hébergement : Configuration serveurs, SSL, HTTPS</li>
+      <li><i class="fas fa-project-diagram"></i> Gestion de projet : Méthode Agile, Scrum</li>
+    </ul>
   </div>
 </section>
 
@@ -28,17 +43,17 @@
       <div class="card">
         <h3>Technicien Logistique</h3>
         <p><strong>Novelty – Longjumeau</strong></p>
-        <p>Gestion des commandes et du matériel, respect des délais, résolution de problèmes techniques.</p>
+        <p>Gestion des commandes et du matériel, respect des délais.</p>
       </div>
       <div class="card">
         <h3>Employé Polyvalent</h3>
         <p><strong>McDonald’s – Courtabeouf</strong></p>
-        <p>Collaboration en équipe et gestion des priorités dans un environnement dynamique.</p>
+        <p>Collaboration en équipe et gestion des priorités.</p>
       </div>
       <div class="card">
         <h3>Fondateur & Freelance</h3>
         <p><strong>DIGICOM MEDIA – Bures-sur-Yvette</strong></p>
-        <p>Participation à la création d’une entreprise de développement web : relation client, services sur mesure.</p>
+        <p>Création d’une entreprise de développement web.</p>
       </div>
     </div>
   </div>
@@ -49,20 +64,16 @@
     <h2>Projets Scolaires</h2>
     <div class="grid">
       <div class="card">
-        <h3>VOTIFY – Plateforme de vote démocratique</h3>
-        <p>Création d’un site web (frontend, backend) et application Java pour décideur.</p>
+        <h3>VOTIFY</h3>
+        <p>Plateforme de vote démocratique (Frontend + Backend).</p>
       </div>
       <div class="card">
-        <h3>JO Companion – Application Jeux Olympiques</h3>
-        <p>Application JAVA, calendrier interactif et planning des épreuves, classements des médailles par pays/discipline.</p>
-      </div>
-      <div class="card">
-        <h3>Infrastructure du Château de Monte Cristo</h3>
-        <p>Conception et configuration d’une infrastructure réseau simulée via Marionnet.</p>
+        <h3>JO Companion</h3>
+        <p>Application Java pour suivre les Jeux Olympiques.</p>
       </div>
       <div class="card">
         <h3>Traitement d’images en C++</h3>
-        <p>Programme de modification d’images (luminosité, taille, opacité, couleur) via un menu interactif.</p>
+        <p>Modification d’images (luminosité, opacité, couleurs).</p>
       </div>
     </div>
   </div>
@@ -72,44 +83,84 @@
   <div class="container">
     <h2>Parcours Scolaire</h2>
     <div class="card">
+      <h3>BUT Informatique</h3>
+      <p><strong>IUT d'Orsay</strong> - 2023 - 2026</p>
+      <p>Programmation, bases de données, réseaux, gestion de projet.</p>
+    </div>
+    <div class="card">
       <h3>Baccalauréat Général</h3>
-      <p><strong>Lycée de l’Essouriau, Les Ulis</strong></p>
-      <p>2023 – Mention Bien – Spécialités Mathématiques et Physique-Chimie.</p>
+      <p><strong>Lycée de l’Essouriau</strong> - 2023</p>
+      <p>Mention Bien – Maths & Physique-Chimie.</p>
     </div>
   </div>
 </section>
 
-<section id="interests">
+<section id="cv">
   <div class="container">
-    <h2>Centres d'intérêt</h2>
-    <div class="grid">
-      <div class="card">
-        <h3>Sport</h3>
-        <p>Boxe, natation, course à pied.</p>
+    <h2>Mon CV</h2>
+    <div class="cv-grid">
+      <div class="cv-card">
+        <div class="cv-content">
+          <h3>CV en Français</h3>
+          <div class="cv-thumbnail" onclick="openCVModal('cv-fr')">
+            <img src="./img/cv-fr.jpg" alt="Aperçu CV Français" style="width:100%; cursor:pointer;">
+          </div>
+          <a href="./img/cv-fr.jpg" target="_blank" class="btn-download">Télécharger</a>
+        </div>
       </div>
-      <div class="card">
-        <h3>Livres</h3>
-        <p>1984, La Peste.</p>
-      </div>
-      <div class="card">
-        <h3>Films</h3>
-        <p>Le Parrain, Shutter Island, Usual Suspects.</p>
-      </div>
-      <div class="card">
-        <h3>Voyages</h3>
-        <p>Londres, New York, Krakovie, Bruxelles, Barcelone, Berlin, Washington.</p>
-      </div>
-      <div class="card">
-        <h3>Musique</h3>
-        <p>J'aime explorer différents genres musicaux.</p>
-      </div>
-      <div class="card">
-        <h3>Entrepreneuriat</h3>
-        <p>Je dirige une entreprise en freelance.</p>
+      <div class="cv-card">
+        <div class="cv-content">
+          <h3>CV en Anglais</h3>
+          <div class="cv-thumbnail" onclick="openCVModal('cv-en')">
+            <img src="./img/cv-en.jpg" alt="Aperçu CV Anglais" style="width:100%; cursor:pointer;">
+          </div>
+          <a href="./img/cv-en.jpg" target="_blank" class="btn-download">Télécharger</a>
+        </div>
       </div>
     </div>
   </div>
 </section>
+
+<!-- Modal pour l'affichage en grand -->
+<div id="cv-modal" class="cv-modal">
+  <span class="close-modal" onclick="closeCVModal()">&times;</span>
+  <iframe id="cv-modal-content" style="width:90%; height:80vh; border:none;"></iframe>
+</div>
+
+<script>
+  function openCVModal(cv) {
+    document.getElementById('cv-modal').style.display = 'flex';
+    document.getElementById('cv-modal-content').src = `./img/${cv}.jpg`;
+  }
+  function closeCVModal() {
+    document.getElementById('cv-modal').style.display = 'none';
+    document.getElementById('cv-modal-content').src = '';
+  }
+</script>
+
+<style>
+  .cv-modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    align-items: center;
+    justify-content: center;
+  }
+  .close-modal {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    font-size: 30px;
+    color: white;
+    cursor: pointer;
+  }
+</style>
+
+
 
 <footer>
   <div class="container">
@@ -118,5 +169,17 @@
 </footer>
 
 <script src="./js/app.js"></script>
+<script>
+  // Animation d'apparition des sections
+  window.addEventListener('scroll', function() {
+    document.querySelectorAll('section').forEach((section) => {
+      let position = section.getBoundingClientRect().top;
+      let windowHeight = window.innerHeight / 1.3;
+      if (position < windowHeight) {
+        section.classList.add('visible');
+      }
+    });
+  });
+</script>
 </body>
 </html>
