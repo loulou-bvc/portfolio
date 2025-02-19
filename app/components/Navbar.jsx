@@ -36,7 +36,6 @@ export default function Navbar() {
         <div className="hidden md:flex space-x-8 text-white text-lg">
           <Link href="/about" className="hover:text-blue-400 transition-all duration-300">À propos</Link>
           <Link href="/projects" className="hover:text-blue-400 transition-all duration-300">Projets</Link>
-          <Link href="/contact" className="hover:text-blue-400 transition-all duration-300">Contact</Link>
         </div>
 
         {/* Menu Mobile */}
@@ -51,7 +50,6 @@ export default function Navbar() {
           <Link href="/" className="py-2 text-white hover:text-blue-400" onClick={() => setIsOpen(false)}>Accueil</Link>
           <Link href="/about" className="py-2 text-white hover:text-blue-400" onClick={() => setIsOpen(false)}>À propos</Link>
           <Link href="/projects" className="py-2 text-white hover:text-blue-400" onClick={() => setIsOpen(false)}>Projets</Link>
-          <Link href="/contact" className="py-2 text-white hover:text-blue-400" onClick={() => setIsOpen(false)}>Contact</Link>
         </div>
       )}
     </motion.nav>

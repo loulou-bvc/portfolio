@@ -54,13 +54,13 @@ export default function Contact() {
 
         {/* Liens sociaux */}
         <div className="flex justify-center space-x-6 mt-6">
-          <a href="https://github.com/" target="_blank" className="text-2xl hover:text-blue-400">
+          <a href="https://github.com/loulou-bvc" target="_blank" className="text-2xl hover:text-blue-400">
             <FaGithub />
           </a>
-          <a href="https://linkedin.com/" target="_blank" className="text-2xl hover:text-blue-400">
+          <a href="https://linkedin.com/in/loup-le-bivic/" target="_blank" className="text-2xl hover:text-blue-400">
             <FaLinkedin />
           </a>
-          <a href="mailto:exemple@email.com" className="text-2xl hover:text-blue-400">
+          <a href="mailto:loupbvv@gmail.com" className="text-2xl hover:text-blue-400">
             <FaEnvelope />
           </a>
         </div>

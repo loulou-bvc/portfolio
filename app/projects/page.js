@@ -130,7 +130,7 @@ const projects = [
     {
         title: "VOTIFY",
         description: "Plateforme de vote démocratique en ligne.",
-        image: "/projects/votify.png",
+        image: "/votify.png",
         link: "https://projets.iut-orsay.fr/saes3-nboulad/VOTFY/views/login.php",
         technologies: [<FaJs key="js" size={40} />, <FaReact key="react" size={40} />],
         extra: (
@@ -142,14 +142,14 @@ const projects = [
     {
         title: "MathJack",
         description: "Jeu éducatif de Blackjack avec des équations mathématiques.",
-        image: "/projects/mathjack.jpg",
+        image: "/jack.jpg",
         technologies: [<FaJs key="js" size={40} />, <FaReact key="react" size={40} />],
         extra: <p className="text-yellow-400 text-lg font-semibold">🚧 Coming Soon...</p>,
     },
     {
         title: "Traitement d'images",
         description: "Modifiez vos images en ligne avec différents outils !",
-        image: "/projects/traitement-images.jpg",
+        image: "/image.jpg",
         technologies: [<FaPython key="python" size={40} />, <SiCplusplus key="cpp" size={40} />, <FaDocker key="docker" size={40} />],
         extra: <ImageEditor />,
     },
