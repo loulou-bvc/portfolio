@@ -156,7 +156,7 @@ const projects = [
     {
         title: "JO Companion",
         description: "Application de suivi des Jeux Olympiques.",
-        image: "/projects/jo.jpg",
+        image: "/jo.jpg",
         technologies: [<FaPhp key="php" size={40} />, <FaJs key="js" size={40} />, <FaFigma key="figma" size={40} />],
         extra: <p className="text-red-400 text-lg font-semibold">❌ Démo non disponible</p>,
     },
